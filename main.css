@@ -1,0 +1,29 @@
+textarea{
+    background-color: white;
+    text-align: right;
+    font-size: xx-large;
+    padding-top: 15px;;
+}
+table{
+    border-radius: 10px;
+    padding: 3px;
+}
+td{
+    border: none;
+}
+ button{
+     height: 50px;
+     font-size: larger;
+     border:1px rgb(165, 165, 165) solid;
+ }
+ button:focus{outline: 0;}
+.white{
+    background-color:#ffffff !important;
+}
+.orange{
+    background-color: orange;
+    color: white;
+}
+.rounded{
+    border-radius: 10px !important; 
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h3 style="font-family:'Courier New', Courier, monospace">Simple Calculator Made by Darshil and Rahul</h3>
+    <table border="1" width="300px "> 
+        <tr>
+            <td colspan="4"><textarea class="rounded"  id="io" cols="30" rows="5" disabled style=" width:98%;resize:none;"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="blank()" style="width:100%" class="rounded white" id="c">Clear</button></td>
+            <td><button class="white rounded" onclick="bkspace()" style="width:100%;font-size:small;" id="d">&#9003;</button></td>
+            <td><button class="orange rounded" onclick="divide()" style="width:100%" id="div">&#247;</button></td>
+        </tr>
+        <tr>
+            <td><button class="white rounded" onclick="print7()" style="width:100%" id="7">7</button></td>
+            <td><button class="white rounded" onclick="print8()" style="width:100%" id="8">8</button></td>
+            <td><button class="white rounded" onclick="print9()" style="width:100%" id="9">9</button></td>
+            <td><button class="orange rounded" onclick="multiply()" style="width:100%" id="mul">x</button></td>
+        </tr>
+        <tr></tr>
+            <td><button class="white rounded" onclick="print4()" style="width:100%" id="4">4</button></td>
+            <td><button class="white rounded" onclick="print5()" style="width:100%" id="5">5</button></td>
+            <td><button class="white rounded" onclick="print6()" style="width:100%" id="6">6</button></td>
+            <td><button class="orange rounded" onclick="minus()" style="width:100%" id="min">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="white rounded" onclick="print1()" style="width:100%" id="1">1</button></td>
+            <td><button class="white rounded" onclick="print2()" style="width:100%" id="2">2</button></td>
+            <td><button class="white rounded" onclick="print3()" style="width:100%" id="3">3</button></td>
+            <td><button class="orange rounded" onclick="addition()" style="width:100%" id="add">+</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button class="white rounded"  onclick="print0()" style="width:100%" id="0">0</button></td>
+            <td><button onclick="printDot()" style="width:100%" class="white rounded"  id="point">.</button></td>
+            <td><button onclick="calculate()" style="width:100%"class="orange rounded"  id="equal">=</button></td>
+        </tr>
+    </table>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
